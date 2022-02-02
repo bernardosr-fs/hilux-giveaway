@@ -15,7 +15,7 @@
 
         <div class="content">
             <div class="form">
-                <form name="data" action="../../functions/exec_cadastrar.php" method="POST" enctype="multipart/form-data">
+                <form name="data" action="../../php/exec_cadastrar.php" method="POST" enctype="multipart/form-data">
                     <div class="form-question">
                         <label> <span> Nome: </span>
                             <input type="text" name="nome" class="input" /> </label>
