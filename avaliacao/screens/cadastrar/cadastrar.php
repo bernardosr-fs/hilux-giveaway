@@ -4,13 +4,13 @@
 <head>
     <link href="./styles/styles.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
-    <title>SORTEIO!</title>
+    <title>PARTICIPE!</title>
 </head>
 
 <body>
     <div class="page">
         <div class="header">
-            <h3> Cadastrar Atualizar </h3>
+            <h3> Cadastrar </h3>
         </div>
 
         <div class="content">
