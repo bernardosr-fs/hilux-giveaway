@@ -18,11 +18,13 @@
                 <form name="data" action="../../php/exec_cadastrar.php" method="POST" enctype="multipart/form-data">
                     <div class="form-question">
                         <label> <span> Nome: </span>
-                            <input type="text" name="nome" class="input" /> </label>
+                            <input type="text" name="nome" class="input" />
+                        </label>
                     </div>
                     <div class="form-question">
                         <label> <span> Telefone: </span>
-                            <input type="number" name="cel" class="input" /> </label>
+                            <input type="text" name="telefone" class="input" />
+                        </label>
                     </div>
                     <button class="send-button">Enviar</button>
                 </form>
