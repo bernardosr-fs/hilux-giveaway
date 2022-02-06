@@ -16,12 +16,19 @@
       <img src="../../assets/img/hilux.png" alt="camionete hilux cabine dupla">
     </div>
     <div class="inscritos">
+<<<<<<< HEAD
       <div class="titulo">
         <span>Inscritos</span>
         <a href="../pesquisar/form_pesquisar.php">
           <img class="icone" src="../../assets/icons/lupa-icon.png" />
         </a>
       </div>
+=======
+      <span>Inscritos</span>
+      <a href="../pesquisar/form_pesquisar.php">
+        <img src="../../assets/icons/lupa-icon.png" />
+      </a>
+>>>>>>> 646c6ca677ef90f3e94a4745875cc60ea572fff3
       <div class="painel-inscritos">
         <table class="tabela">
           <tr class="legenda-tabela">
