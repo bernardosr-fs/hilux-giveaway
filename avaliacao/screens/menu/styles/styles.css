@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 .header {
@@ -23,16 +22,6 @@ body {
   width: 100%;
 }
 
-.card-service {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  height: 100%;
-  width: 33.3%;
-  margin: 0;
-}
-
 .title {
   display: flex;
   align-items: center;
@@ -47,28 +36,37 @@ body {
   text-decoration: none;
 }
 
-.employee-title {
-  font-size: 60px;
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 80vh;
 }
 
-.gringo-bills-card {
-  background-image: url("../../../assets/empresario.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: black inset 0px 0px 1000px 100px;
+.imagem-produto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.employee-management-card {
-  background-image: url("../../../assets/gestora-rh.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: black inset 0px 0px 1000px 100px;
+.inscritos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 50px;
 }
 
-.health-care-service {
-  background-image: url("../../../assets/nutricionista.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  box-shadow: black inset 0px 0px 1000px 100px;
+.painel-inscritos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25vw;
+  height: 60vh;
+
+  border: 2px solid grey;
+  border-radius: 10px;
 }
