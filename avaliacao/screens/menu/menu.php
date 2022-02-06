@@ -55,8 +55,14 @@
       </div>
       </table>
     </div>
-    <div class="botao-cadastrar">
-      <a class="link-cadastrar" href="../cadastrar/form_cadastrar.php">Cadastre-se</a>
+    <div class="botoes-interacao">
+
+      <div class="botao-cadastrar">
+        <a class="link-cadastrar" href="../cadastrar/form_cadastrar.php">Cadastre-se</a>
+      </div>
+      <div class="botao-cadastrar">
+        <a class="link-cadastrar" href="../cadastrar/form_cadastrar.php">Gerar relatório</a>
+      </div>
     </div>
   </div>
 
