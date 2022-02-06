@@ -59,14 +59,44 @@ body {
   font-size: 50px;
 }
 
+.titulo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
 .painel-inscritos {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
 
   width: 25vw;
   height: 60vh;
+  padding: 10px;
 
   border: 2px solid grey;
   border-radius: 10px;
+
+  font-size: 17px;
+}
+
+.tabela {
+  width: 100%;
+}
+
+.legenda-tabela {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dados-tabela {
+  width: 80%;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
 }
