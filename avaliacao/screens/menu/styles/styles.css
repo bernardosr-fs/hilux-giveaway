@@ -46,8 +46,15 @@ body {
 
 .imagem-produto {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  transition: 0.5s ease;
+}
+
+.imagem-produto:hover {
+  transform: scale(1.1);
 }
 
 .inscritos {
@@ -90,6 +97,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .dados-tabela {
@@ -99,4 +107,21 @@ body {
 .icone {
   width: 30px;
   height: 30px;
+}
+
+.botao-cadastrar {
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.5s ease;
+}
+
+.botao-cadastrar:hover {
+  transform: scale(1.1);
+}
+
+.link-cadastrar {
+  text-decoration: none;
+  color: black;
 }

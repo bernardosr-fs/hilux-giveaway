@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 150px;
+  width: 100%;
+
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 789px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 650px;
+  width: 100%;
+}
+
+.formulario {
+  width: 500px;
+}
+
+.form-question {
+  display: flex;
+  height: 70px;
+  margin-bottom: 30px;
+  width: 100%;
+  color: black;
+  justify-content: space-between;
+}
+
+.label-form {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+
+  border: 1px solid black;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.send-button {
+  margin-top: 50px;
+  height: 30px;
+  width: 100%;
+
+  border-radius: 5px;
+}

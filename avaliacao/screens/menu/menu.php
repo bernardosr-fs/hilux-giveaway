@@ -13,22 +13,16 @@
   </div>
   <div class="conteudo">
     <div class="imagem-produto">
+      Sorteio de uma camionete hilux cabine dupla 4x4 turbo que pesa 2.2 toneladas. Vale aproximadamente R$242.000.
       <img src="../../assets/img/hilux.png" alt="camionete hilux cabine dupla">
     </div>
     <div class="inscritos">
-<<<<<<< HEAD
       <div class="titulo">
         <span>Inscritos</span>
         <a href="../pesquisar/form_pesquisar.php">
           <img class="icone" src="../../assets/icons/lupa-icon.png" />
         </a>
       </div>
-=======
-      <span>Inscritos</span>
-      <a href="../pesquisar/form_pesquisar.php">
-        <img src="../../assets/icons/lupa-icon.png" />
-      </a>
->>>>>>> 646c6ca677ef90f3e94a4745875cc60ea572fff3
       <div class="painel-inscritos">
         <table class="tabela">
           <tr class="legenda-tabela">
@@ -61,8 +55,8 @@
       </div>
       </table>
     </div>
-    <div>
-      <a href="../cadastrar/form_cadastrar.php">Cadastre-se</a>
+    <div class="botao-cadastrar">
+      <a class="link-cadastrar" href="../cadastrar/form_cadastrar.php">Cadastre-se</a>
     </div>
   </div>
 
