@@ -10,4 +10,4 @@ $cod = $linha[0];
 $nome = $linha[1];
 $tel = $linha[2];
 $msg = urlencode('Cadastros buscados com sucesso!');
-//header ("location: ../php/form_atualizar.php?retorno=$msg");
+header ("location: ../../../screens/form_atualizar.php?retorno=$msg");

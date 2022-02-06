@@ -8,8 +8,5 @@ $sql="update cadastro set nome='$nome', telefone='$tel' where codigo=$cod";
 mysqli_query($conexao,$sql) or die(mysqli_connect_error());
 
 $msg=urlencode('Cadastro atualizado com sucesso!');
-/**
- * @TODO criar form atualizar
- */
-header ("location: ../php/form_atualizar.php?retorno=$msg");
+header ("location: ../screens/atualizar/form_atualizar.php?retorno=$msg&cod=$cod");
 ?>
