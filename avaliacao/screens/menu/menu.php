@@ -17,7 +17,7 @@
     </div>
     <div class="inscritos">
       <span>Inscritos</span>
-      <a href="">
+      <a href="../pesquisar/form_pesquisar.php">
         <img src="../../assets/icons/lupa-icon.png" />
       </a>
       <div class="painel-inscritos">
