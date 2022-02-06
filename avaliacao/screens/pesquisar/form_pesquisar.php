@@ -15,13 +15,11 @@
 
         <div class="content">
             <div class="form">
-                <form name="data" action="../../php/exec_pesquisar.php" method="POST" enctype="multipart/form-data">
-                    <div class="form-question">
-                        <label> <span> Telefone: </span>
-                            <input type="text" name="tel" class="input" />
-                        </label>
-                    </div>
-                    <button class="send-button">Enviar</button>
+                <form name="data" action="../../php/exec_pesquisar.php" method="POST">
+                    <label> <span> Telefone: </span>
+                        <input type="text" name="tel" class="input" />
+                    </label>
+                    <input type="image" src="../../assets/icons/lupa-icon.png" name="img_pesquisar" title="Pesquisar"> 
                 </form>
             </div>
 
