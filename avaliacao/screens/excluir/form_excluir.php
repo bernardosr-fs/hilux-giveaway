@@ -16,13 +16,20 @@
 <div id="esquerda">
 <?php
     require_once('../../php/conectar.php');
-    $cod = $_GET['cod'];
-    $sql="select * from cadastro where codigo=$cod";
-    $res=mysqli_query($conexao,$sql) or die (mysqli_connect_error());
-    $linha = mysqli_fetch_row($res);
 
-    $nome = $linha[1];
-    $tel = $linha[2];
+    if (isset ($_GET['cod'])) {
+      $cod = $_GET['cod'];
+      $sql="select * from cadastro where codigo=$cod";
+      $res=mysqli_query($conexao,$sql) or die (mysqli_connect_error());
+      $linha = mysqli_fetch_row($res);
+      
+      $nome = $linha[1];
+      $tel = $linha[2];
+    } else {
+      $cod = "";
+      $nome = "";
+      $tel = "";
+    }
 ?>
 </div>  
 
@@ -41,14 +48,13 @@
 </form>
 </div> 
 <?php
-if (isset ($_GET['retorno']))
-{
- $msg = $_GET['retorno'];
- echo "<br />";
- echo "<font face='Arial' size='3' color='#F00'>";
- echo $msg;
- $msg="";
- echo "</font>";
+if (isset ($_GET['retorno'])) {
+  $msg = $_GET['retorno'];
+  echo "<br />";
+  echo "<font face='Arial' size='3' color='#F00'>";
+  echo $msg;
+  $msg="";
+  echo "</font>";
 }
 ?>
 </div>
